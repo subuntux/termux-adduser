@@ -1,0 +1,14 @@
+{
+  "name": "termux-adduser",
+  "version": "1.4",
+  "arch": "arm",
+  "maintainer": "Subuntu X <subuntux@github.com>",
+  "description": "adduser",
+  "homepage": "https://github.com/subuntux/term-master",
+  "depends": ["python3", "sqlite"],
+  "files": {
+  "main.py": "/data/data/com.termux/files/usr/bin/termux-adduser",
+  "db/user.db": "/data/data/com.termux/files/usr/shared/termux-adduser/db/user.db",
+  "home": "/data/data/com.termux/files/usr/shared/termux-adduser/home"
+  }
+}
